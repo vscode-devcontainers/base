@@ -1,0 +1,13 @@
+name: Publish image
+
+on:
+  schedule:
+    - cron: '0 1 * * 3'
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  call-publish:
+    uses: vscode-devcontainers/actions/.github/workflows/publish.yml@main
