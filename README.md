@@ -1,4 +1,4 @@
-# Base
+# Base [![Publish image](https://github.com/vscode-devcontainers/base/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/vscode-devcontainers/base/actions/workflows/publish.yml)
 
 This image is the base for all other images in this organization.
 
